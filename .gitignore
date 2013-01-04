@@ -1,0 +1,8 @@
+/deps
+/ebin
+*.sw?
+rel/files/
+rel/sign_serv/
+*/.eunit/
+*/ebin/
+

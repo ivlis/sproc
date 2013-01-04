@@ -1,0 +1,11 @@
+{application, sproc,
+ [
+  {description, "Simple process registry"},
+  {vsn, "1"},
+  {registered, [sproc_srv]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+ {mod, {sproc_app, []}}
+ ]}.
